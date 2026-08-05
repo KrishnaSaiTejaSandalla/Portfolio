@@ -56,7 +56,7 @@ const projects: Project[] = [
   },
   {
     id: 'traveloop',
-    name: 'Traveloop (Lokavista)',
+    name: 'Lokavista',
     description:
       'A travel planning and booking platform with destination exploration and trip planning features. Focused on improving user experience and navigation design.',
     tech: ['HTML5', 'CSS3', 'JavaScript', 'UX Design'],
