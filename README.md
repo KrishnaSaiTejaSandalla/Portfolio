@@ -162,3 +162,12 @@ My goal is to build impactful solutions by combining:
 ---
 
 ⭐ If you like this project, feel free to explore the repository and share feedback!
+
+
+## 📄 Resume
+
+You can view or download my resume here:
+
+[Download Resume](./Krishna_Sai_Teja_Sandalla_Resume.pdf)
+
+---
