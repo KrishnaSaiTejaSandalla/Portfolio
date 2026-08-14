@@ -1,102 +1,200 @@
 # 🚀 AI Engineer Portfolio
 
-A modern, immersive developer portfolio built with **Next.js 15**, **React 19**, **TypeScript**, and **Tailwind CSS**.
-Designed to showcase my journey as an **AI Engineer and Full Stack Developer**, featuring my projects, technical skills, certifications, and experience.
+<p align="center">
+  <img src="public/assets/images/Krishna-i1.png" alt="Portfolio Preview" width="900"/>
+</p>
 
-## ✨ Features
+<h3 align="center">
+A modern, immersive developer portfolio showcasing my journey as an 
+<strong>AI Engineer & Full Stack Developer</strong>.
+</h3>
 
-* ⚡ **Next.js 15** - Latest App Router architecture with improved performance
-* ⚛️ **React 19** - Modern UI development with the latest React features
-* 🔷 **TypeScript** - Type-safe and scalable codebase
-* 🎨 **Tailwind CSS** - Responsive and modern styling system
-* 📱 **Fully Responsive Design** - Optimized across desktop, tablet, and mobile devices
-* 🧩 **Reusable Components** - Clean and maintainable component architecture
-* 🏆 **Projects Showcase** - Displaying AI, Full Stack, and Web Development projects
-* 📜 **Certificates Section** - Showcasing professional certifications and achievements
-* 🌐 **Modern UI/UX** - Smooth animations and interactive user experience
+<p align="center">
+Built with <strong>Next.js 15</strong>, <strong>React 19</strong>, 
+<strong>TypeScript</strong>, and <strong>Tailwind CSS</strong>.
+</p>
 
----
-
-## 🛠️ Tech Stack
-
-### Frontend
-
-* **Next.js 15**
-* **React 19**
-* **TypeScript**
-* **Tailwind CSS**
-* **HTML5**
-* **CSS3**
-* **JavaScript**
-
-### Development Tools
-
-* **Git & GitHub**
-* **NPM**
-* **ESLint**
-* **Prettier**
-
-### AI & Development Interests
-
-* Artificial Intelligence
-* Machine Learning
-* Full Stack Development
-* Modern Web Technologies
+<p align="center">
+  <a href="https://krishna-sai-teja-portfolio.vercel.app/">
+    🌐 Live Portfolio
+  </a>
+  |
+  <a href="Krishna_Sai_Teja_Sandalla_Resume.pdf">
+    📄 Resume
+  </a>
+</p>
 
 ---
 
-## 📁 Project Structure
+# 👨‍💻 About The Project
+
+This is my personal developer portfolio built to showcase my journey as a:
+
+**AI Engineer | Full Stack Developer | Computer Science Student**
+
+The portfolio represents my skills, projects, certifications, education, and experience while focusing on creating a modern, interactive, and user-friendly experience.
+
+The vision behind this project is to combine:
+
+> **Artificial Intelligence + Software Engineering + Creative User Experiences**
+
+into meaningful digital solutions.
+
+---
+
+# ✨ Features
+
+## 🎨 Modern UI/UX
+
+- Premium and immersive portfolio design
+- Fully responsive across all devices
+- Smooth animations and interactive elements
+- Clean typography and modern layouts
+- Optimized user experience
+
+## 💻 Portfolio Sections
+
+- 👋 Hero introduction
+- 🧑‍💻 About me
+- 🛠️ Technical skills
+- 🎓 Education background
+- 🚀 Projects showcase
+- 🏆 Certifications
+- 🌎 Languages & hobbies
+- 📩 Contact section
+- 📄 Resume download
+
+## ⚡ Development Features
+
+- Next.js App Router architecture
+- Reusable component structure
+- Type-safe development with TypeScript
+- Optimized image handling
+- Scalable project organization
+- Clean and maintainable codebase
+
+---
+
+# 🛠️ Tech Stack
+
+## Frontend
+
+| Technology | Purpose |
+|------------|---------|
+| Next.js 15 | React framework with App Router |
+| React 19 | Building dynamic user interfaces |
+| TypeScript | Type safety and scalable development |
+| Tailwind CSS | Responsive and modern styling |
+| HTML5 | Semantic page structure |
+| CSS3 | Custom styling |
+| JavaScript | Core functionality |
+
+---
+
+## Development Tools
+
+| Tool | Usage |
+|------|-------|
+| Git | Version control |
+| GitHub | Code hosting |
+| NPM | Package management |
+| ESLint | Code quality |
+| Prettier | Code formatting |
+| VS Code | Development environment |
+
+---
+
+## AI & Engineering Interests
+
+- Artificial Intelligence
+- Machine Learning
+- Generative AI
+- Full Stack Development
+- Cloud Technologies
+- Intelligent Web Applications
+- Software Engineering
+
+---
+
+# 📂 Project Structure
 
 ```
-portfolio/
+Portfolio/
+│
 ├── public/
-│   ├── images/              # Images and visual assets
-│   ├── certificates/        # Certification images
-│   └── projects/            # Project showcase assets
+│   │
+│   ├── assets/
+│   │   ├── images/
+│   │   │   └── Portfolio images
+│   │   │
+│   │   └── certifications/
+│   │       └── Certificate images
+│   │
+│   └── Krishna_Sai_Teja_Sandalla_Resume.pdf
 │
 ├── src/
-│   ├── app/                 # Next.js App Router
-│   │   ├── layout.tsx       # Root layout component
-│   │   ├── page.tsx         # Main portfolio page
 │   │
-│   ├── components/          # Reusable UI components
-│   └── styles/              # Global styling
+│   ├── app/
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── not-found.tsx
+│   │
+│   ├── components/
+│   │   │
+│   │   ├── portfolio/
+│   │   │   ├── About.tsx
+│   │   │   ├── Certifications.tsx
+│   │   │   ├── Contact.tsx
+│   │   │   ├── Education.tsx
+│   │   │   ├── Hero.tsx
+│   │   │   ├── Projects.tsx
+│   │   │   ├── Skills.tsx
+│   │   │   └── Navbar.tsx
+│   │   │
+│   │   └── ui/
+│   │       └── Reusable UI components
+│   │
+│   └── styles/
+│       ├── index.css
+│       └── tailwind.css
 │
-├── next.config.mjs          # Next.js configuration
-├── package.json             # Dependencies and scripts
-├── postcss.config.js        # PostCSS configuration
-└── tailwind.config.js       # Tailwind CSS configuration
+├── package.json
+├── package-lock.json
+├── next.config.mjs
+├── tailwind.config.ts
+├── tsconfig.json
+└── README.md
 ```
 
 ---
 
-## ⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 
-Clone the repository:
-
-```bash
-git clone https://github.com/your-username/your-repository-name.git
-```
-
-Navigate into the project:
+## Clone Repository
 
 ```bash
-cd portfolio
+git clone https://github.com/KrishnaSaiTejaSandalla/Portfolio.git
 ```
 
-Install dependencies:
+## Navigate to Project
+
+```bash
+cd Portfolio
+```
+
+## Install Dependencies
 
 ```bash
 npm install
 ```
 
-Run the development server:
+## Run Development Server
 
 ```bash
 npm run dev
 ```
 
-Open:
+Open your browser:
 
 ```
 http://localhost:3000
@@ -104,70 +202,122 @@ http://localhost:3000
 
 ---
 
-## 📦 Available Scripts
+# 📦 Available Scripts
 
-| Command            | Description                   |
-| ------------------ | ----------------------------- |
-| `npm run dev`      | Start development server      |
-| `npm run build`    | Create production build       |
-| `npm run start`    | Start production server       |
-| `npm run lint`     | Check code quality            |
+| Command | Description |
+|---------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build application for production |
+| `npm run start` | Start production server |
+| `npm run lint` | Check code quality |
 | `npm run lint:fix` | Automatically fix lint issues |
-| `npm run format`   | Format code using Prettier    |
+| `npm run format` | Format code using Prettier |
 
 ---
 
-## 🚀 Deployment
+# 🚀 Deployment
 
 This portfolio is optimized for production deployment.
 
-Build the project:
+Create production build:
 
 ```bash
 npm run build
 ```
 
-The application can be deployed using platforms like:
+Recommended deployment platforms:
 
-* **Vercel**
-* **Netlify**
-* Any Node.js hosting platform
-
----
-
-## 🎯 Purpose
-
-This portfolio represents my growth as a **Computer Science student specializing in Artificial Intelligence**.
-
-My goal is to build impactful solutions by combining:
-
-**Artificial Intelligence + Software Engineering + Creative User Experiences**
+- 🚀 Vercel
+- Netlify
+- Any Node.js hosting platform
 
 ---
 
-## 📚 Learning Resources
+# 📜 Certifications
 
-* [Next.js Documentation](https://nextjs.org/docs)
-* [React Documentation](https://react.dev/)
-* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+The portfolio includes my professional learning achievements:
+
+- Infosys Springboard Certifications
+- TCS iON Certifications
+- Prompt Engineering Certifications
+- Data Visualization Certifications
+- AI & Technology Learning Programs
 
 ---
 
-## 🙏 Acknowledgments
+# 🎯 Future Roadmap
 
-* Built with ❤️ using **Next.js and React**
-* Styled with **Tailwind CSS**
-* Inspired by modern web experiences and creative developer portfolios
+Planned improvements:
+
+- [ ] AI-powered portfolio assistant chatbot
+- [ ] Blog section for technical articles
+- [ ] Dynamic project management system
+- [ ] More AI/ML project demonstrations
+- [ ] Advanced animations and interactions
+- [ ] Dark/light theme customization
+
+---
+
+# 📈 Learning Outcomes
+
+Building this portfolio helped me improve my understanding of:
+
+✅ Modern Next.js architecture  
+✅ React component design  
+✅ TypeScript development  
+✅ Responsive web engineering  
+✅ UI/UX principles  
+✅ Production deployment workflows  
+✅ Building scalable applications  
+
+---
+
+# 👨‍💻 About Me
+
+I am a **Computer Science student specializing in Artificial Intelligence**, passionate about building intelligent systems and modern software applications.
+
+My focus areas include:
+
+- Artificial Intelligence
+- Machine Learning
+- Full Stack Development
+- Generative AI
+- Cloud Technologies
+
+I aim to create solutions that combine technical innovation with real-world impact.
+
+---
+
+# 🤝 Connect With Me
+
+🌐 Portfolio:
+```
+https://krishna-sai-teja-portfolio.vercel.app/
+```
+
+🐙 GitHub:
+```
+https://github.com/KrishnaSaiTejaSandalla
+```
+
+💼 LinkedIn:
+```
+Add your LinkedIn profile link
+```
+
+📄 Resume:
+```
+Available in this repository
+```
+
+---
+
+# 🙏 Acknowledgements
+
+- Built with ❤️ using **Next.js & React**
+- Styled with **Tailwind CSS**
+- Inspired by modern developer portfolios and creative web experiences
 
 ---
 
 ⭐ If you like this project, feel free to explore the repository and share feedback!
-
-
-## 📄 Resume
-
-You can view or download my resume here:
-
-[Download Resume](./Krishna_Sai_Teja_Sandalla_Resume.pdf)
-
----
